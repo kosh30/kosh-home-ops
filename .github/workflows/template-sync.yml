@@ -28,3 +28,5 @@ jobs:
         uses: AndreasAugustin/actions-template-sync@v2
         with:
           source_repo_path: onedr0p/cluster-template
+          upstream_branch: main
+          pr_labels: area/templates,area/scripts
