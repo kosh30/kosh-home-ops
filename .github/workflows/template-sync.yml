@@ -20,7 +20,7 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
         # https://github.com/actions/checkout#usage
         # uncomment if you use submodules within the repository
         # with:
